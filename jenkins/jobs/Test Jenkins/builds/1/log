@@ -1,0 +1,8 @@
+Started by user [8mha:////4B3B/tthxKgh6tl/Sc2RRZoIJAFnGncu9K8XpahXN/deAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xOzE4gwAwqYtjcAAAAA=[0mAkash D
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test Jenkins
+[Test Jenkins] $ /bin/sh -xe /tmp/jenkins6008223591329172795.sh
++ cd /var/lib/jenkins
++ echo Hello Jenkins
+Hello Jenkins
+Finished: SUCCESS

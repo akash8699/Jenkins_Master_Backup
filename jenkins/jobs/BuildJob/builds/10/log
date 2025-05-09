@@ -1,0 +1,20 @@
+Started by GitHub push by akash8699
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/BuildJob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/BuildJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akash8699/Devops_CProject.git # timeout=10
+Fetching upstream changes from https://github.com/akash8699/Devops_CProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/akash8699/Devops_CProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ced95e1c4409f29f390782bc57ee41cf078a58a7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ced95e1c4409f29f390782bc57ee41cf078a58a7 # timeout=10
+Commit message: "Update LeapYear.c"
+ > git rev-list --no-walk d7f8b2b7b13896d8d67bfe3bd22cdb1dc16bc42e # timeout=10
+Triggering a new build of [8mha:////4MsrSkG6DzmctMpl3ugLWCYG9wUay/Yp470D9XdNuix8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2X1IKc/EovIAsA61fyXMQAAAA=[0mDeployJob
+Finished: SUCCESS

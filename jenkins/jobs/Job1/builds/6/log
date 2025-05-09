@@ -1,0 +1,33 @@
+Started by GitHub push by akash8699
+Running as SYSTEM
+Building remotely on [8mha:////4FDPqGA8jgRNx8clpqNi4zwp6o2d4LCFIm1JZZON+X0xAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUQ30AwYXMccYAAAA=[0mSlave1 in workspace /home/ubuntu/workspace/Job1
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/akash8699/Devops_CProject.git
+ > git init /home/ubuntu/workspace/Job1 # timeout=10
+Fetching upstream changes from https://github.com/akash8699/Devops_CProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/akash8699/Devops_CProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/akash8699/Devops_CProject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f39c9d540798b4f8ba8145032e3e415fb8b0eb66 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f39c9d540798b4f8ba8145032e3e415fb8b0eb66 # timeout=10
+Commit message: "Update Test again"
+ > git rev-list --no-walk 4a3e6a769825ef891eafd5c51b0adf610e7b4d7d # timeout=10
+[Job1] $ /bin/sh -xe /tmp/jenkins8897649665149839166.sh
++ cd /home/ubuntu/CProjects/Devops_CProject
++ make
+gcc -Wall -g -c main.c -o main.o
+gcc -Wall -g -c Fact.c -o Fact.o
+gcc -Wall -g -c Pal.c -o Pal.o
+gcc -Wall -g -c Big3.c -o Big3.o
+gcc -Wall -g -o main main.o Fact.o Pal.o Big3.o
+Finished: SUCCESS

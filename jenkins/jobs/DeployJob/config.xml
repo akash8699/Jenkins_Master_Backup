@@ -1,0 +1,51 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>DeployJob</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>Slave1</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>BuildJob, </upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>git pull https://github.com/akash8699/Devops_CProject.git
+cd /home/ubuntu/workspace/DeployJob/
+gcc LeapYear.c -o leapyear
+USER=&quot;ec2-user&quot;
+PASSWORD=&quot;Jslave2&quot;
+HOST=&quot;172.31.45.41&quot;
+SOURCE_FILE=&quot;/home/ubuntu/workspace/DeployJob/leapyear&quot;
+DEST_PATH=&quot;/home/ec2-user/jenkins&quot;
+
+sshpass -p &quot;$PASSWORD&quot; scp &quot;$SOURCE_FILE&quot; &quot;$USER@$HOST:$DEST_PATH&quot;
+
+if [ %$? -eq 0 ];then
+	echo &quot;File transefered Successfullt&quot;
+else
+	echo &quot;Failed&quot;
+fi 
+
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

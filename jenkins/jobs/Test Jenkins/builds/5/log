@@ -1,0 +1,7 @@
+Started by user [8mha:////4B3B/tthxKgh6tl/Sc2RRZoIJAFnGncu9K8XpahXN/deAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xOzE4gwAwqYtjcAAAAA=[0mAkash D
+Running as SYSTEM
+Building remotely on [8mha:////4FDPqGA8jgRNx8clpqNi4zwp6o2d4LCFIm1JZZON+X0xAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUQ30AwYXMccYAAAA=[0mSlave1 in workspace /home/ubuntu/workspace/Test Jenkins
+[Test Jenkins] $ /bin/sh -xe /tmp/jenkins8837914904355032424.sh
++ echo Hello Jenkins
+Hello Jenkins
+Finished: SUCCESS

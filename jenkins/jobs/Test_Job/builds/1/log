@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4MsrSkG6DzmctMpl3ugLWCYG9wUay/Yp470D9XdNuix8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2X1IKc/EovIAsA61fyXMQAAAA=[0mDeployJob" build number [8mha:////4FYBo5xu7FG1SNvfgM526JeB4I9tQ/9FDLKzZUuQOropAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH2X1IKc/EovIMvQBAB+lteHxgAAAA==[0m14
+originally caused by:
+ Started by upstream project "[8mha:////4PB2KbS9Pg3Vnpia39SMpNFcPimiBKpgUnWRSmhq5U5/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFC8gAwAywhLzwwAAAA==[0mBuildJob" build number [8mha:////4FxcVoIl8LLBqvQ3v9qs3A/9n46cf7n1SRtalUNLrAkbAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFC8gw9AUAEQUTUjFAAAA[0m15
+ originally caused by:
+  Started by GitHub push by akash8699
+Running as SYSTEM
+Building remotely on [8mha:////4PupgGO/shQhmCNT2Tr4KgwxJHCsP1Dl3Xj0GKY446V1AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUY30AQ+f6Q8YAAAA=[0mSlave3 in workspace /home/ec2-user/jenkins/workspace/Test_Job
+[Test_Job] $ /bin/sh -xe /tmp/jenkins10746923564467736838.sh
++ cd /home/ec2-user/jenkins
++ ./leapyear 2020
+2020 is a Leap Year.
+Finished: SUCCESS

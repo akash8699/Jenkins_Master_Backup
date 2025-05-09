@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4PB2KbS9Pg3Vnpia39SMpNFcPimiBKpgUnWRSmhq5U5/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFC8gAwAywhLzwwAAAA==[0mBuildJob" build number [8mha:////4PPk+4u9+lCmUUaiLxYzxDKI1VNJef6RMaMayOEKWQ2dAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwkfafSzJwULyDDBAA2VLlLxAAAAA==[0m4
+originally caused by:
+ Started by GitHub push by akash8699
+Running as SYSTEM
+Building remotely on [8mha:////4FDPqGA8jgRNx8clpqNi4zwp6o2d4LCFIm1JZZON+X0xAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUQ30AwYXMccYAAAA=[0mSlave1 in workspace /home/ubuntu/workspace/DeployJob
+[DeployJob] $ /bin/sh -xe /tmp/jenkins1215328748156315879.sh
++ cd /home/ubuntu/CProjects/Devops_CProject
++ gcc LeapYear.c -o leapyear
+cc1: fatal error: LeapYear.c: No such file or directory
+compilation terminated.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

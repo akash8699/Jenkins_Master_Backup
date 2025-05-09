@@ -1,0 +1,23 @@
+Started by upstream project "[8mha:////4PB2KbS9Pg3Vnpia39SMpNFcPimiBKpgUnWRSmhq5U5/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFC8gAwAywhLzwwAAAA==[0mBuildJob" build number [8mha:////4OkDTXGqbzsefanasOZ3Sml9SxLl024O/xlG9oaVdGiWAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwkfafSzJwULyDDEgCLKAg1xAAAAA==[0m9
+originally caused by:
+ Started by GitHub push by akash8699
+Running as SYSTEM
+Building remotely on [8mha:////4FDPqGA8jgRNx8clpqNi4zwp6o2d4LCFIm1JZZON+X0xAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUQ30AwYXMccYAAAA=[0mSlave1 in workspace /home/ubuntu/workspace/DeployJob
+[DeployJob] $ /bin/sh -xe /tmp/jenkins3230748863038265949.sh
++ git pull https://github.com/akash8699/Devops_CProject.git
+From https://github.com/akash8699/Devops_CProject
+ * branch            HEAD       -> FETCH_HEAD
+Updating 8734e76..d7f8b2b
+Fast-forward
++ cd /home/ubuntu/workspace/DeployJob/
++ gcc LeapYear.c -o leapyear
++ USER=ec2-user
++ PASSWORD=Jslave2
++ HOST=172.31.45.41
++ SOURCE_FILE=/home/ubuntu/workspace/DeployJob/leapyear
++ DEST_PATH=/home/ec2-user/jenkins
++ sshpass -p Jslave2 scp /home/ubuntu/workspace/DeployJob/leapyear ec2-user@HOST:DEST_PATH
+ssh: Could not resolve hostname host: Temporary failure in name resolution
+scp: Connection closed
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

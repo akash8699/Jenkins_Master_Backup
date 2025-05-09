@@ -1,0 +1,23 @@
+Started by GitHub push by akash8699
+Running as SYSTEM
+Building remotely on [8mha:////4PupgGO/shQhmCNT2Tr4KgwxJHCsP1Dl3Xj0GKY446V1AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eCcxLJUY30AQ+f6Q8YAAAA=[0mSlave3 in workspace /home/ec2-user/jenkins/workspace/BuildJob
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/akash8699/Devops_CProject.git
+ > git init /home/ec2-user/jenkins/workspace/BuildJob # timeout=10
+Fetching upstream changes from https://github.com/akash8699/Devops_CProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/akash8699/Devops_CProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/akash8699/Devops_CProject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 575a7626ddfa9f0f21774f0ffb35095e24de99d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 575a7626ddfa9f0f21774f0ffb35095e24de99d8 # timeout=10
+Commit message: "Update LeapYear.c"
+ > git rev-list --no-walk ab153e8ae8bc0ece095f4661c179c3ee4e9e3b97 # timeout=10
+Triggering a new build of [8mha:////4MsrSkG6DzmctMpl3ugLWCYG9wUay/Yp470D9XdNuix8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2X1IKc/EovIAsA61fyXMQAAAA=[0mDeployJob
+Finished: SUCCESS

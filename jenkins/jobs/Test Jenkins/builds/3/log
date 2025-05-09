@@ -1,0 +1,8 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test Jenkins
+[Test Jenkins] $ /bin/sh -xe /tmp/jenkins13238508452749545839.sh
++ cd /var/lib/jenkins
++ echo Hello Jenkins
+Hello Jenkins
+Finished: SUCCESS
